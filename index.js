@@ -13,10 +13,6 @@ let ans = '';
 let temp;
 let res;
 const myMap = new Map(englishToBrailleLiteralSet);
-// var imported = document.createElement('english-to-braille');
-// imported.src = '/english-to-braille.js';
-// document.head.appendChild(imported);
-
 
 function formulate(text) {
   for (i = 0; i < text.length; i += 1) {
